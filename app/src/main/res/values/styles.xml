@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--Theme.AppCompat.Light.DarkActionBar需改成No没有Bar，去除actionBar-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--继承AppTheme,去除沉侵栏-->
+    <style name="FullScreen" parent="AppTheme">
+        <!--android:windowFullscreen是个boolean类型的值-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="video_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>
