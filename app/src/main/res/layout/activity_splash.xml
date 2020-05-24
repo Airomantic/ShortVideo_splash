@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    tools:context=".splash.SplashActivity">
 
     <!--自定义控件全屏的继承来自VideoView，横屏也可以，因为有很好的兼容性-->
-    <com.panda.shortvideo_splash.FullScreenVideoView
+    <com.panda.shortvideo_splash.splash.FullScreenVideoView
         android:id="@+id/vv_play"
         style="@style/video_view_style" />
 

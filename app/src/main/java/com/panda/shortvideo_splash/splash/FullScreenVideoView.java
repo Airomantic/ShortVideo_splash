@@ -1,4 +1,4 @@
-package com.panda.shortvideo_splash;
+package com.panda.shortvideo_splash.splash;
 
 import android.content.Context;
 import android.util.AttributeSet;

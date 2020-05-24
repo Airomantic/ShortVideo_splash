@@ -6,4 +6,6 @@
 
     <color name="color_ffffff">#ffffffff</color>
     <color name="color_black_30">#B2000000</color>
+    <color name="color_gray">#ADADAD</color>
+    <color name="color_red">#CF2626</color>
 </resources>

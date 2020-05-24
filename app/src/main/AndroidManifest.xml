@@ -4,6 +4,8 @@
     package="com.panda.shortvideo_splash">
 
     <application
+        android:appComponentFactory=""
+        tools:replace="android:appComponentFactory"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,8 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="HardcodedDebugMode">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SplashActivity"
+        <activity android:name=".main.MainActivity"></activity>
+        <activity android:name=".splash.SplashActivity"
             android:theme="@style/FullScreen">
             <intent-filter>
                 <!--这是个隐式启动-->
